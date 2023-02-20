@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <script>
+    const toggle = () => {
+        document.getElementById("nav").classList.toggle("navactive");
+    };
+</script>
+<header>
+    <div class="brand">
+        <h1>Projeto</h1>
+    </div>
+    <span class="fas fa-bars" id="menuIcon" onclick="toggle()"></span>
+    <div class="navbar" id="nav">
+        <ul>
+            <li>
+                <span class="fas fa-home" id="headIcon"></span>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <span class="fa fa-user-circle" id="headIcon"></span>
+                <a href="contato.html">Contato</a>
+            </li>
+            <li>
+                <span class="fas fa-question-circle" id="headIcon"></span>
+                <a href="midias.html">Vídeos</a>
+            </li>
+            <li>
+                <span class="fas fa-lock" id="headIcon"></span>
+                <a href="produtos.html">Produtos</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+    <br><br><br>
+    <div id="contatos" >
+        <h2 class="p">Deixe aqui o seu comentário</h2>
+        <br>
+        <form name="contato" method="post" class="p" action="agradecimentos.html"
+           action="mailto:seu@email.com">
+           <fieldset id="fieldset"><legend class="legenda">CONTATO</legend>	
+            <br>
+                <p> Nome: <br>
+                   <input type="text" id="nome" placeholder="Nome" autofocus required/>
+                </p><br>
+                <p> Email: <br>
+                  <input type="email" id ="email" placeholder="Email" size="40" required />
+                </p><br>
+                <p> Sua Mensagem: <br>
+                  <textarea name="" id="" placeholder="Mensagem" cols="30" rows="10"></textarea>
+                </p><br>
+                
+                <br><br><br>
+                <input class="button" type="submit" value="ENVIAR">
+                <br><br><br>
+    </div>
+    <br><br><br><br>
+    <footer class="footer">
+      <p>Todos os Direitos Reservados</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto ILP-540</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <script>
+        const toggle = () => {
+            document.getElementById("nav").classList.toggle("navactive");
+        };
+    </script>
+    <header>
+        <div class="brand">
+            <h1>Projeto</h1>
+        </div>
+        <span class="fas fa-bars" id="menuIcon" onclick="toggle()"></span>
+        <div class="navbar" id="nav">
+            <ul>
+                <li>
+                    <span class="fas fa-home" id="headIcon"></span>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <span class="fa fa-user-circle" id="headIcon"></span>
+                    <a href="contato.html">Contato</a>
+                </li>
+                <li>
+                    <span class="fas fa-question-circle" id="headIcon"></span>
+                    <a href="midias.html">Vídeos</a>
+                </li>
+                <li>
+                    <span class="fas fa-lock" id="headIcon"></span>
+                    <a href="produtos.html">Produtos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <br><br><br>
+    <div>
+        <section id="sectionBox">
+            <article class="box">
+                <h2>Sobre este Projeto</h2>
+                <br>
+                <p>Este projeto foi desenvolvido durante as aulas de ILP-540, Eletiva para Internet pela Fatec São
+                    Paulo, com o objetivo de testar as habilidade de HTML5 e CSS3</p>
+                <br><br>
+                <iframe width="760" height="425" src="https://www.youtube.com/embed/T3ra-In8A5g?autoplay=1&mute=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>   
+
+            </article>
+        </section>
+    </div>
+
+    <br><br><br>
+
+
+
+    <div class="div">
+        <address>
+            <p><b>Fatec - SP</b></p>
+            <p><b>Av. Tiradentes, 715</b></p>
+            <p><em>Metrô Tiradentes</em></p>
+            <br>
+        </address>
+        <iframe id="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14632.325247427545!2d-46.6325629!3d-23.5295777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585f8b81eb75%3A0xb742158dee17d684!2sFatec%20S%C3%A3o%20Paulo%20-%20Faculdade%20de%20Tecnologia%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1676635387831!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+    </div>
+
+    <br><br><br><br><br>
+
+    <footer class="footer">
+        <p>Todos os Direitos Reservados</p>
+    </footer>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
