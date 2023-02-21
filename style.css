@@ -41,7 +41,8 @@ textarea {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
-    font-family: 'Open Sans', serif; /* Não tinha Ido */
+    font-family: 'Open Sans', serif;
+    /* Não tinha Ido */
 }
 
 input {
@@ -64,6 +65,14 @@ input:hover {
     font-weight: bold;
     text-align: center;
     font-size: x-large;
+}
+
+#video {
+    width: 90%;
+}
+
+.video2 {
+    width: 90%;
 }
 
 .div {
@@ -95,19 +104,19 @@ input:hover {
     margin: 30px;
 }
 
-.legenda{
+.legenda {
     font-weight: bold;
     border: 3px solid black;
     padding: 3px;
     border-radius: 5px;
 }
 
-.legenda:hover{
+.legenda:hover {
     background-color: #ccc;
     color: white;
 }
 
-#fieldset{
+#fieldset {
     border: 3px solid black;
     border-radius: 5px;
 }
@@ -133,10 +142,10 @@ header {
 
 .brand {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     padding: 4%;
-    width: 20%;
 }
 
 .brand h1 {
@@ -212,20 +221,17 @@ ul li a:active,
         top: 60px;
         z-index: 221;
         left: 5%;
-
     }
 
     #menuIcon {
         display: inline;
         position: fixed;
         font-size: 25px;
-        margin-left: 87%;
         z-index: 222;
-        float: right;
         padding: 1%;
         border-radius: 4px;
         cursor: pointer;
-        border: 1px solid rgb(221, 221, 221);
+        width: 170vw;
     }
 
     .navbar ul {
