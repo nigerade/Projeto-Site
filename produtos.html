@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Produtos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <script>
         const toggle = () => {
@@ -17,8 +19,10 @@
         <div class="brand">
             <h1>Projeto</h1>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" id="menuIcon" onclick="toggle()"width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" id="menuIcon" onclick="toggle()" width="35" height="35"
+            fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
         <div class="navbar" id="nav">
             <ul>
@@ -43,20 +47,45 @@
     </header>
     <br><br>
 
-    <h2 class="p">Olhe esses Produtos!!</h2>
-    <br>
-    <div class="div2">
-        <img class="img-produto" src="imgs/1.jfif" alt="">
-        <br><br>
-        <img class="img-produto" src="imgs/2.jfif" alt="">
-        <br><br>
-        <img class="img-produto" src="imgs/4.jfif" alt="">
-    </div>
-        
-    <br><br><br><br>
-    
+    <h3 class="product-slider-heading">Product Slider</h3>
+    <section class="p-slider">
+        <div class="product-box">
+            <span class="p-discount">-20%</span>
+
+
+            <div class="p-img-container">
+                <div class="p-img">
+
+                    <a href="#">
+                        <img src="imgs/1-a.jpg" class="p-img-front" alt="Frente">
+                        <img src="imgs/1-b.jpg" class="p-img-back" alt="Atrás">
+                    </a>
+
+                </div>
+            </div>
+
+
+
+            <div class="p-box-text">
+                <div class="product-category">
+                    <span>MoterBike</span>
+                </div>
+
+                <a href="#" class="product-title">
+                    Apollo DB-36 RX250cc DELUXE Enduro On/Off Road
+                </a>
+
+                <div class="price-buy">
+                    <span class="p-price">1200$</span>
+                    <a href="#" class="p-buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <p>Todos os Direitos Reservados</p>
     </footer>
 </body>
+
 </html>
