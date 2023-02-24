@@ -51,6 +51,15 @@ body {
     font-size: xx-large;
 }
 
+#a-h1-projeto{
+    text-decoration: none;
+    color: #fff;
+}
+
+#a-h1-projeto:hover{
+    color: rgb(197, 197, 197);
+}
+
 .product-box{
     display: flex;
     flex-direction: column;
