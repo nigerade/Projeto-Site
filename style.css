@@ -24,22 +24,6 @@ body {
     padding: 15px;
 }
 
-.p-slider{
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0px;
-}
-
-.product-slider-heading{
-    font-size: 28px;
-    text-transform: uppercase;
-    color: #313131;
-    text-align: center;
-    margin: 0px;
-}
-
 .p-texto{
     font-size: large;
     margin-right: 52px;
@@ -47,8 +31,12 @@ body {
     font-weight: 550;
 }
 
-.h1-texto{
-    font-size: xx-large;
+.p-slider{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
 }
 
 #a-h1-projeto{
@@ -58,6 +46,14 @@ body {
 
 #a-h1-projeto:hover{
     color: rgb(197, 197, 197);
+}
+
+.product-slider-heading{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #313131;
+    text-align: center;
+    margin: 0px;
 }
 
 .product-box{
@@ -275,6 +271,10 @@ header {
     margin-left: 5%;
 }
 
+.h1-texto{
+    font-size: xx-large;
+}
+
 .navbar {
     position: relative;
     width: 70%;
@@ -317,7 +317,7 @@ ul li a {
 
 ul li a:active,
 :focus {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 700;
 }
 
@@ -414,9 +414,9 @@ form{
 
 input, textarea{
     width: 100%;    
+    outline: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    outline: 0;
     border: 1px solid #fff;
     columns: #fff;
     background: transparent;
