@@ -40,6 +40,17 @@ body {
     margin: 0px;
 }
 
+.p-texto{
+    font-size: large;
+    margin-right: 52px;
+    margin-left: 52px;
+    font-weight: 550;
+}
+
+.h1-texto{
+    font-size: xx-large;
+}
+
 .product-box{
     display: flex;
     flex-direction: column;
@@ -394,7 +405,8 @@ form{
 
 input, textarea{
     width: 100%;    
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     outline: 0;
     border: 1px solid #fff;
     columns: #fff;
