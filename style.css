@@ -199,6 +199,8 @@ body {
 .video2 {
     width: 80%;
     height: 40vw;
+    border: 2px solid black;
+    border-radius: 2px;
 }
 
 .div {
@@ -208,10 +210,9 @@ body {
 .footer {
     font-size: large;
     font-weight: bold;
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     color: white;
     text-align: center;
@@ -307,7 +308,7 @@ ul li:hover {
 
 ul li #headIcon {
     display: block;
-    font-size: 22px;
+    font-size: 22px; /* ARRUMAR */
 }
 
 ul li a {
@@ -378,7 +379,6 @@ ul li a:active,
 
     ul li #headIcon {
         display: inline-block;
-        font-size: 33px;
     }
 
     ul li:hover {
@@ -479,4 +479,19 @@ input:focus~label{
 input:valid~label{
     top: -35px;
     font-size: 14px;
+}
+
+#formulario{
+    margin-bottom: 100px;
+}
+
+#h1-contato{
+    color: #fff;
+    font-size: xx-large;
+}
+
+@media (max-width: 768px) {
+    .video2 {
+        height: 350px;
+    }
 }
