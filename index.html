@@ -10,46 +10,62 @@
     <script src="https://kit.fontawesome.com/5681f7ccc8.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
 
-
+    
+    <!-- animacao menu hamburguer -->
     <script>
         const toggle = () => {
-            document.getElementById("nav").classList.toggle("navactive");
+            document.getElementById("nav").classList.toggle("navactive"); 
         };
     </script>
+    <!-- fim animacao menu hamburguer -->
+
+
+    <!-- header animado -->
     <header>
         <div class="brand">
-            <h1><a href="index.html" id="a-h1-projeto">Projeto</a></h1>
+            <h1><a href="index.html" id="a-h1-projeto">Projeto</a></h1> <!-- texto home-->
         </div>
+
+
+        <!-- icone hamburguer -->
         <svg xmlns="http://www.w3.org/2000/svg" id="menuIcon" onclick="toggle()" width="35" height="35"
             fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
+        <!-- fim icone hamburguer -->
+
+
         <div class="navbar" id="nav">
             <ul>
                 <li>
-                    <a href="index.html"><span class="fas fa-home" id="headIcon"></span></a>
-                    <a href="index.html">Home</a>
+                    <a href="index.html"><span class="fas fa-home" id="headIcon"></span></a> <!-- icone -->
+                    <a href="index.html">Home</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="contato.html"><span class="fas fa-user-circle" id="headIcon"></span></a>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html"><span class="fas fa-user-circle" id="headIcon"></span></a> <!-- icone -->
+                    <a href="contato.html">Contato</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="midias.html"><span class="fas fa-video" id="headIcon"></span></a>
-                    <a href="midias.html">Vídeos</a>
+                    <a href="midias.html"><span class="fas fa-video" id="headIcon"></span></a> <!-- icone -->
+                    <a href="midias.html">Vídeos</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="produtos.html"><span class="fas fa-lock" id="headIcon"></span></a>
-                    <a href="produtos.html">Loja</a>
+                    <a href="produtos.html"><span class="fas fa-lock" id="headIcon"></span></a> <!-- icone -->
+                    <a href="produtos.html">Loja</a> <!-- link -->
                 </li>
             </ul>
         </div>
     </header>
+    <!-- fim header animado -->
+
 
     <br><br><br>
+
+    <!-- div inicial -->
     <div>
         <section id="sectionBox">
             <article class="box">
@@ -69,11 +85,13 @@
             </article>
         </section>
     </div>
+    <!-- fim div inicial -->
+
 
     <br><br><br><br>
 
 
-
+    <!-- div mapa -->
     <div class="div">
         <address>
             <p class="p-texto"><b>Fatec - SP</b></p>
@@ -82,21 +100,25 @@
             <br>
             <br>
         </address>
-        <iframe id="mapa"
+        <iframe id="mapa" 
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14632.325247427545!2d-46.6325629!3d-23.5295777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585f8b81eb75%3A0xb742158dee17d684!2sFatec%20S%C3%A3o%20Paulo%20-%20Faculdade%20de%20Tecnologia%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1676635387831!5m2!1spt-BR!2sbr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <br>
     </div>
+    <!-- fim div mapa -->
+
 
     <br><br><br><br><br>
 
+
+    <!-- rodape -->
     <footer class="footer">
-        <p>Todos os Direitos Reservados</p>
+        <p>&copy; Todos os Direitos Reservados</p>
     </footer>
+    <!-- fim rodape -->
 
 
 </body>
-<script src="script.js"></script>
 
 </html>

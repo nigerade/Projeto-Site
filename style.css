@@ -219,6 +219,17 @@ body {
     padding: 20px;
 }
 
+#footer-agradecimentos{ /* ARRUMAR */
+    font-size: large;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 #video {
     text-align: center;
 }
@@ -423,6 +434,7 @@ input, textarea {
     background: transparent;
     font-size: 15px;
     border-radius: 5px;
+    color: #fff;
 }
 
 label {

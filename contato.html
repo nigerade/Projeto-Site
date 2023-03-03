@@ -10,111 +10,117 @@
     <script src="https://kit.fontawesome.com/5681f7ccc8.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
 
+    <!-- animacao menu hamburguer -->
     <script>
         const toggle = () => {
-            document.getElementById("nav").classList.toggle("navactive");
+            document.getElementById("nav").classList.toggle("navactive"); 
         };
     </script>
+    <!-- fim animacao menu hamburguer -->
+
+
+    <!-- header animado -->
     <header>
         <div class="brand">
-            <h1><a href="index.html" id="a-h1-projeto">Projeto</a></h1>
+            <h1><a href="index.html" id="a-h1-projeto">Projeto</a></h1> <!-- texto home-->
         </div>
+
+
+        <!-- icone hamburguer -->
         <svg xmlns="http://www.w3.org/2000/svg" id="menuIcon" onclick="toggle()" width="35" height="35"
             fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
+        <!-- fim icone hamburguer -->
+
+
         <div class="navbar" id="nav">
             <ul>
                 <li>
-                    <a href="index.html"><span class="fas fa-home" id="headIcon"></span></a>
-                    <a href="index.html">Home</a>
+                    <a href="index.html"><span class="fas fa-home" id="headIcon"></span></a> <!-- icone -->
+                    <a href="index.html">Home</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="contato.html"><span class="fas fa-user-circle" id="headIcon"></span></a>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html"><span class="fas fa-user-circle" id="headIcon"></span></a> <!-- icone -->
+                    <a href="contato.html">Contato</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="midias.html"><span class="fas fa-video" id="headIcon"></span></a>
-                    <a href="midias.html">Vídeos</a>
+                    <a href="midias.html"><span class="fas fa-video" id="headIcon"></span></a> <!-- icone -->
+                    <a href="midias.html">Vídeos</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="produtos.html"><span class="fas fa-lock" id="headIcon"></span></a>
-                    <a href="produtos.html">Loja</a>
+                    <a href="produtos.html"><span class="fas fa-lock" id="headIcon"></span></a> <!-- icone -->
+                    <a href="produtos.html">Loja</a> <!-- link -->
                 </li>
             </ul>
         </div>
     </header>
+    <!-- fim header animado -->
 
+
+    <!-- div contato -->
     <div class="hero">
         <form id="formulario" name="contato" method="post" class="p" action="agradecimentos.html"
             action="mailto:seu@email.com">
             <h1 class="p" id="h1-contato">Entre em Contato</h1>
             <br><br><br>
-            <div class="row">
+            <div class="row"> <!-- esta div divide os campos nomes e telefone -->
+
+                <!-- campo nome -->
                 <div class="input-group">
-                    <input type="text" id="name" required>
+                    <input autofocus minlength="3" maxlength="25" type="text" id="name" required>
                     <label for="name"><span class="fas fa-user" id="headIcon"></span> Seu Nome</label>
                 </div>
+                <!-- fim campo nome -->
 
+
+                <!-- campo telefone -->
                 <div class="input-group">
-                    <input type="text" id="number" required>
+                    <input minlength="9" maxlength="15" type="text" id="number" required>
                     <label for="number"><span class="fas fa-phone" id="headIcon"></span> Telefone</label>
                 </div>
+                <!-- fim campo telefone -->
             </div>
 
 
-
+            <!-- campo email -->
             <div class="input-group">
-                <input type="text" id="email" required>
+                <input minlength="1" maxlength="50" type="text" id="email" required>
                 <label for="email"><span class="fas fa-envelope" id="headIcon"></span> Email</label>
             </div>
+            <!-- fim campo email -->
 
+
+            <!-- campo mensagem -->
             <div class="input-group">
-                <textarea id="message" rows="8" required></textarea>
+                <textarea minlength="1" maxlength="250" id="message" rows="8" required></textarea>
                 <label for="message"><span class="fas fa-comment" id="headIcon"></span> Sua Mensagem</label>
             </div>
+            <!-- fim campo mensagem -->
 
-
+            
+            <!-- button enviar -->
             <button class="button-contato" type="submit">
                 ENVIAR
             </button>
+            <!-- fim button enviar -->
+
         </form>
     </div>
+    <!-- fim div contato -->
 
+
+    <!-- rodape -->
     <footer class="footer">
-        <p>Todos os Direitos Reservados</p>
+        <p>&copy; Todos os Direitos Reservados</p>
     </footer>
+    <!-- fim rodape -->
+
 
 </body>
 
 </html>
-
-<!-- formulário antigo
-
-<br><br><br>
-    <div id="contatos" >
-        <h2 class="p">Deixe aqui o seu comentário</h2>
-        <br>
-        <form name="contato" method="post" class="p" action="agradecimentos.html"
-           action="mailto:seu@email.com">
-           <fieldset id="fieldset"><legend class="legenda">CONTATO</legend>	
-            <br>
-                <p> Nome: <br>
-                   <input type="text" id="nome" placeholder="Nome" autofocus required/>
-                </p><br>
-                <p> Email: <br>
-                  <input type="email" id ="email" placeholder="Email" size="40" required />
-                </p><br>
-                <p> Sua Mensagem: <br>
-                  <textarea name="" id="" placeholder="Mensagem" cols="30" rows="10"></textarea>
-                </p><br>
-                
-                <br><br><br>
-                <input class="button" type="submit" value="ENVIAR">
-                <br><br><br>
-    </div>
-
--->
