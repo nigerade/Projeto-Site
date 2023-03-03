@@ -234,7 +234,7 @@ body {
     padding: 20px;
 }
 
-#footer-agradecimentos{ /* ARRUMAR */
+#footer-agradecimentos{ 
     font-size: large;
     font-weight: bold;
     left: 0;
@@ -450,6 +450,7 @@ input, textarea {
     font-size: 15px;
     border-radius: 5px;
     color: #fff;
+    padding-left: 7px;
 }
 
 label {
@@ -618,4 +619,13 @@ input:valid~label {
     .slider-btns{
         padding: 0px;
     }    
+}
+
+#link-linkedin{
+    text-decoration: none;
+    color: #fff;
+}
+
+#link-linkedin:hover{
+    color: #2EE59D;
 }
