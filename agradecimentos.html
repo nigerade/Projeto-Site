@@ -12,48 +12,76 @@
 
 
 <body>
+
+
+    <!-- animacao menu hamburguer -->
     <script>
         const toggle = () => {
             document.getElementById("nav").classList.toggle("navactive");
         };
     </script>
+    <!-- fim animacao menu hamburguer -->
+
+
+    <!-- header animado -->
     <header>
         <div class="brand">
-            <h1><a href="index.html" id="a-h1-projeto">Projeto</a></h1>
+            <h1><a href="index.html" id="a-h1-projeto">Projeto</a></h1> <!-- texto home-->
         </div>
+
+
+        <!-- icone hamburguer -->
         <svg xmlns="http://www.w3.org/2000/svg" id="menuIcon" onclick="toggle()" width="35" height="35"
             fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
         </svg>
+        <!-- fim icone hamburguer -->
+
+
         <div class="navbar" id="nav">
             <ul>
                 <li>
-                    <a href="index.html"><span class="fas fa-home" id="headIcon"></span></a>
-                    <a href="index.html">Home</a>
+                    <a href="index.html"><span class="fas fa-home" id="headIcon"></span></a> <!-- icone -->
+                    <a href="index.html">Home</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="contato.html"><span class="fas fa-user-circle" id="headIcon"></span></a>
-                    <a href="contato.html">Contato</a>
+                    <a href="contato.html"><span class="fas fa-user-circle" id="headIcon"></span></a> <!-- icone -->
+                    <a href="contato.html">Contato</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="midias.html"><span class="fas fa-video" id="headIcon"></span></a>
-                    <a href="midias.html">Vídeos</a>
+                    <a href="midias.html"><span class="fas fa-video" id="headIcon"></span></a> <!-- icone -->
+                    <a href="midias.html">Vídeos</a> <!-- link -->
                 </li>
                 <li>
-                    <a href="produtos.html"><span class="fas fa-lock" id="headIcon"></span></a>
-                    <a href="produtos.html">Loja</a>
+                    <a href="produtos.html"><span class="fas fa-lock" id="headIcon"></span></a> <!-- icone -->
+                    <a href="produtos.html">Loja</a> <!-- link -->
                 </li>
             </ul>
         </div>
     </header>
+    <!-- fim header animado -->
+
+
     <br><br><br><br>
+
+
     <h1 id="h1">Obrigado por mandar a sua Resposta!!</h1>
 
     <br>
 
     <p class="p">Volte para a Página Inicial!!</p>
 
+    <!-- div img -->
+    <div class="div2">
+        <img id="img-obrigado" src="imgs/obrigado.jpg" alt="">
+
+        <img id="img-obrigado" src="imgs/joinha.jpg" alt="">
+    </div>
+    <!-- fim div img -->
+
+
+    <br><br><br><br>
 
     <!-- rodape -->
     <footer id="footer-agradecimentos" class="footer">
