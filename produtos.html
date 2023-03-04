@@ -67,7 +67,9 @@
     <br><br><br>
 
 
-    <!-- button de prox e volta -->
+
+    <main class="principal">
+        <!-- button de prox e volta -->
     <h1 class="h1-texto">Slide de Produtos</h1>
 
     <div class="slider-btns">
@@ -335,6 +337,8 @@
 
     </div>
     <!-- fim div principal -->
+    </main>
+    
 
 
     <br><br><br>
@@ -349,69 +353,71 @@
     <!-- fim rodape -->
 
 
+    <!-- script glider -->
     <script src="Glider.js-master/glider.min.js">
     </script>
 
     <script>
         new Glider(document.querySelector('.glider'), {
-            slidesToScroll: 1,
-            slidesToShow: 4,
-            draggable: true,
+            slidesToScroll: 1, // slides rolando
+            slidesToShow: 4, // slides mostrando
+            draggable: true, // permite arrastar
             dots: '.dots',
             arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
+                prev: '.glider-prev', // botão antes
+                next: '.glider-next' // botão depois 
             },
 
             responsive: [
                 {
-                    // screens greater than >= 775px
+                    // telas maiores que 775px
                     breakpoint: 1200,
                     settings: {
-                        // Set to `auto` and provide item width to adjust to viewport
-                        slidesToShow: 4,
-                        slidesToScroll: 2,
+                        // Seta pra Auto e muda o Width para se ajustar ao Viewport
+                        slidesToShow: 4, // slides mostrando
+                        slidesToScroll: 2, // slides p/ rolar
                     }
                 }, {
-                    // screens greater than >= 1024px
+                    // telas maiores que 1024px
                     breakpoint: 900,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
+                        slidesToShow: 3, // slides mostrando
+                        slidesToScroll: 1, // slides p/ rolar
                     }
                 },
 
 
                 {
-                    // screens greater than >= 1024px
+                    // telas maiores que 1024px
                     breakpoint: 640,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
+                        slidesToShow: 3, // slides mostrando
+                        slidesToScroll: 1, // slides p/ rolar
                     }
                 },
 
                 {
-                    // screens greater than >= 1024px
+                    // telas maiores que 1024px
                     breakpoint: 304,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
+                        slidesToShow: 3, // slides mostrando
+                        slidesToScroll: 1, // slides p/ rolar
                     }
                 },
 
                 {
-                    // screens greater than >= 1024px
+                    // telas maiores que 1024px
                     breakpoint: 0,
                     settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
+                        slidesToShow: 1, // slides mostrando
+                        slidesToScroll: 1, // slides p/ rolar
                     }
                 }
             ]
         });
 
     </script>
+    <!-- fim script glider -->
 </body>
 
 </html>

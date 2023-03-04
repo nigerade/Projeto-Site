@@ -382,7 +382,7 @@ ul li a:active,
         padding: 1%;
         border-radius: 4px;
         cursor: pointer;
-        width: 170vw;
+        right: 20px;
     }
 
     .navbar ul {
@@ -528,7 +528,6 @@ input:valid~label {
 .slider-btns {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
     margin: 30px auto 10px auto;
     padding: 0px 10px;
 }
@@ -545,6 +544,7 @@ input:valid~label {
     margin-right: 35px; 
     border: 1px solid #cfcfcf;
     border-radius: 4px;
+    z-index: 0;
 }
 
 .slider-btns button span {
@@ -628,4 +628,8 @@ input:valid~label {
 
 #link-linkedin:hover{
     color: #2EE59D;
+}
+
+.principal{
+    height: 100vh;
 }
