@@ -286,7 +286,7 @@
         _.arrows.next.classList.toggle(
           'disabled',
           Math.ceil(_.ele.scrollLeft + _.containerWidth) >=
-            Math.floor(_.trackWidth) || disableArrows
+          Math.floor(_.trackWidth) || disableArrows
         )
 
         _.arrows.next.setAttribute(
@@ -485,7 +485,7 @@
       _.ele.scrollLeft =
         _.ele.scrollLeft +
         (scrollTarget - _.ele.scrollLeft) *
-          _.opt.easing(0, now, 0, 1, scrollDuration)
+        _.opt.easing(0, now, 0, 1, scrollDuration)
       if (now < scrollDuration && animateIndex === _.animate_id) {
         _window.requestAnimationFrame(animate)
       } else {

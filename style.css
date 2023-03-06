@@ -205,7 +205,7 @@ body {
     border-radius: 2px;
 }
 
-#img-obrigado{
+#img-obrigado {
     width: 60%;
     height: auto;
     margin-top: 5%;
@@ -234,7 +234,7 @@ body {
     padding: 20px;
 }
 
-#footer-agradecimentos{ 
+#footer-agradecimentos {
     font-size: large;
     font-weight: bold;
     left: 0;
@@ -541,7 +541,7 @@ input:valid~label {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 35px; 
+    margin-right: 35px;
     border: 1px solid #cfcfcf;
     border-radius: 4px;
     z-index: 0;
@@ -555,7 +555,7 @@ input:valid~label {
 }
 
 .slider-btns button span::before,
-.slider-btns button span::after{
+.slider-btns button span::after {
     border-right: 2px solid;
     display: block;
     height: 8px;
@@ -568,68 +568,69 @@ input:valid~label {
     content: '';
 }
 
-.slider-btns button span::after{
+.slider-btns button span::after {
     margin-top: -1px;
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
 }
 
-.slider-btns .glider-prev span{
+.slider-btns .glider-prev span {
     transform: rotate(-180deg);
 }
 
-@media (max-width: 500px){
-    .product-box{
+@media (max-width: 500px) {
+    .product-box {
         margin: 0px 10px;
     }
 
-    .p-slider{
+    .p-slider {
         width: 100%;
     }
 
-    .product-slider-heading{
+    .product-slider-heading {
         text-align: center;
         font-size: 1.3rem;
         display: flex;
     }
 
     .p-img a,
-    .p-img{
+    .p-img {
         height: 200px;
     }
 
-    .price-buy .p-price{
+    .price-buy .p-price {
         font-size: 1.1rem;
     }
 
-    .p-img-container:hover .p-img-back{
+    .p-img-container:hover .p-img-back {
         display: none;
     }
 
-    .p-img-container:hover .p-img-front{
+    .p-img-container:hover .p-img-front {
         display: block;
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
+
     .p-img a,
-    .p-img{
+    .p-img {
         height: 190px;
     }
 
-    .slider-btns{
+    .slider-btns {
         padding: 0px;
-    }    
+    }
 }
 
-#link-linkedin{
+#link-linkedin {
     text-decoration: none;
     color: #fff;
 }
 
-#link-linkedin:hover{
+#link-linkedin:hover {
     color: #2EE59D;
 }
 
-.principal{
+.principal {
     height: 100vh;
 }

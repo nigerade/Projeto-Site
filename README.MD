@@ -1,7 +1,5 @@
 <h1 align="center"> Projeto HTML5 e CSS3 - ILP540 </h1>
 
----
-
 <p align="center">
 Projeto de Site em HTML5 e CSS3 pela matéria ILP-540 desenvolvido durante o curso Análise e Desenvolvimento de Sistemas pela Fatec São Paulo    
 </p>
@@ -16,7 +14,7 @@ Projeto de Site em HTML5 e CSS3 pela matéria ILP-540 desenvolvido durante o cur
 <br>
 
 <p align="center">
-  <img style="border:1px solid #252525" alt="Imagem Principal" src="imgs/1.png" width="100%">
+  <img style="border:2px solid black" alt="Imagem Principal" src="imgs/1.png" width="100%">
 </p>
 
 ---
