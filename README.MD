@@ -16,7 +16,7 @@ Projeto de Site em HTML5 e CSS3 pela matéria ILP-540 desenvolvido durante o cur
 <br>
 
 <p align="center">
-  <img alt="Imagem Principal" src="imgs/1.png" width="100%">
+  <img style="border:1px solid #252525" alt="Imagem Principal" src="imgs/1.png" width="100%">
 </p>
 
 ---
