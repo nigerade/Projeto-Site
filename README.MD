@@ -11,14 +11,12 @@ Projeto de Site em HTML5 e CSS3 pela matéria ILP-540 desenvolvido durante o cur
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-integrantes">Integrantes</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="TCC Toque na Rede" src="imgs/1.jpg" width="100%">
+  <img alt="Imagem Principal" src=".github/1.jpg" width="100%">
 </p>
 
 ---
@@ -37,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto foi desenvolvido como um Teste para dominar os principais aspectos das tecnologias HTML e CSS.
 
-- Você pode ver o site neste link: [Projeto ILP-540](https://nigerade.github.io/Projeto-Site/).
+Você pode ver o site neste link: [Projeto ILP-540](https://nigerade.github.io/Projeto-Site/)
 
 --- 
 
